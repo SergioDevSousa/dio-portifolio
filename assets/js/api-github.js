@@ -23,7 +23,7 @@ async function fetchGitHubRepos() {
       const Repo = repos[0];
       
       // Atualizando o DOM com os dados do repositório
-      repoName.textContent = firstRepo.name; // Nome do repositório
+      repoName.textContent = Repo.name; // Nome do repositório
       repoUrl.innerHTML = `<a href="${Repo.html_url}" target="_blank" rel="noopener noreferrer">${Repo.html_url}</a>`; // URL
     } else {
       // Mensagem se nenhum repositório for encontrado
