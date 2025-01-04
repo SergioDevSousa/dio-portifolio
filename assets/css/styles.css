@@ -1,0 +1,97 @@
+@import url(./fonts.css);
+@import url(./global.css);
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.header .foto {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes .title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.information p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.information p::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/image/icon/job.svg");
+}
+.information .job::before{
+    background-image: url("../image/icon/job.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+.information .local::before{
+    background-image: url("../image/icon/local.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+.information .whatsapp::before{
+    background-image: url("../image/icon/whatsapp.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+.information .email::before{
+    background-image: url("../image/icon/email.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+
+/* styles section */
+
+.container-section{
+    display: flex;
+    justify-content: center;
+}
+.section-skills{
+    border: solid 3px #05659c;
+    border-radius: 1rem;
+    width: 800px;
+    height: 40px;
+    text-align: start;
+    padding: 5px 0 0 40px;
+    font-size: 1.5rem;
+}
+.section-skills::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/image/icon/seta.png");
+}
+
+@media only screen and (min-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header .foto {
+        margin-right: 80px;
+    }
+}
