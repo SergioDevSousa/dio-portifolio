@@ -1,0 +1,24 @@
+.languagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.languagens li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+.languagens li::before{
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("/assets/image/icon/check.svg");
+    margin-right: .5rem;
+}
