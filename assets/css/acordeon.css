@@ -5,6 +5,7 @@
     border: 1px solid #05659c;
     border-radius: 1rem;
     transition: .025s;
+    margin: 1rem;
 }
 .acordeon.open,
 .acordeon:hover{

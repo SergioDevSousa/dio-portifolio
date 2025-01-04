@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="./assets/image/perfil nova.png" alt="foto desenvolvedor" class="foto">
             <div class="informacoes">
@@ -28,17 +28,63 @@
                 Skills
             </button>
             <div class="content">
-                <ul class="languagens">
-                    <li>teste</li>
-                    <li>teste</li>
-                    <li>teste</li>
-                    <li>teste</li>
+                <ul class="skills">
+                    ....
                 </ul>
-            </div>
-            
+            </div>  
         </section>
 
-    </div>
-    <script src="./assets/js/acordeon.js"></script>
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+            <div class="content">
+                <ul class="languagens">
+                    <li>Português (BR)</li>
+                    <li>Ingês</li>
+                    <li>Francês</li>
+                    <li>Espanhol</li>
+                </ul>
+            </div>  
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Educação
+            </button>
+            <div class="content">
+                <ul class="education">
+                    .....
+                </ul>
+            </div>  
+        </section>
+        
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Portifólio
+            </button>
+            <div class="content">
+                <h3 id="repo-name">Nome do Repositório</h3>
+                <p id="repo-url">
+                    <a href="#" target="_blank">URL do Repositório</a>
+                </p>
+            </div>  
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Experiência Profissional
+            </button>
+            <div class="content">
+                <ul class="profissional">
+                    .....
+                </ul>
+            </div>  
+        </section>
+
+
+    </main>
+    <script src="./assets/js/acordeon.js" defer></script>
+    <script src="./assets/js/api-github.js" defer></script>
 </body>
 </html>
