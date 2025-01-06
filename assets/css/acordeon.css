@@ -12,7 +12,7 @@
     background-color: #05659c;
     border-radius: 1rem;
 }
-.acordeon .trigger {
+.acordeon .trigger{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,6 +22,11 @@
     color: #fff;
     border: none;
     cursor: pointer;
+}
+.acordeon .trigger h2{
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
 }
 .acordeon .trigger:hover{
     background-color: #05659c;

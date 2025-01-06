@@ -1,0 +1,14 @@
+.portifolio h3::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/image/icon/github.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+.portifolio a{
+    text-decoration: none;
+    color: #fff;
+}

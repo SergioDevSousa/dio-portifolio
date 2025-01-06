@@ -1,7 +1,11 @@
 @import url(./fonts.css);
 @import url(./global.css);
 @import url(./acordeon.css);
+@import url(./skills.css);
 @import url(./languagens.css);
+@import url(./portifolio.css);
+@import url(./experience.css);
+@import url(./footer.css);
 
 .header{
     display: flex;
@@ -31,6 +35,10 @@
     font-size: 1rem;
     width: 100%;
     margin-bottom: 10px;
+}
+.information a{
+    text-decoration: none;
+    color: #fff;
 }
 .information p::before{
     content: "";
